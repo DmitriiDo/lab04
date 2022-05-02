@@ -35,9 +35,9 @@ jobs:
     - name: HelloWorldApplication CMake
       shell: bash
       run: |
-        ./hello_world_application/hello_world
+        ./_build/hello_world_application/hello_world
 
     - name: SolverApplication CMake
       shell: bash
       run: |
-        ./solver_application/solve 1 -5 6
+        ./_build/solver_application/solve 1 -5 6
